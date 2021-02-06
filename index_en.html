@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<h1>See ya' belowed HTML5! Yeah, that's how it looks. No any CSS/JS.</h1>
+	<h2>And that's how do looks apps...</h2>
+	<div>
+		<table>
+			<tr valign="top">
+				<td width="33%">
+					<h3>in Flash</h3>
+						<object type="application/x-shockwave-flash" data="//chat.kongregate.com/gamez/0020/3158/live/2048.swf?kongregate_game_version=1398931721" width="100%" height="500"></object>
+						<small>© <a href="//www.kongregate.com/games/PasKuda13/2048-flash">PasKuda13</a></small>
+				</td>
+				<td width="33%">
+					<h3>in HTML5</h3>
+					<div>This is just a dumb 4×4 grid. What else did you expect from HTML?</div>
+					<table border="4" width="100%">
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</table>
+					<button>
+						And a button. Hit it 'til pigs fly. Nothing gonna happen*<br>
+						<small><small><small>* actually, on the 13868th hit it will open the Hell gate, though hush!</small></small></small>
+					</button>
+				</td>
+				<td width="33%">
+					<h3>in JavaScript</h3>
+					<iframe src="//gabrielecirulli.github.io/2048/" width="100%" height="500">
+					</iframe>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<h2>And if you're interested in Flash only for it's ability to embed videos on webpages, see what browsers have for that...</h2>
+	<div>
+		<table>
+			<tr valign="top">
+				<td width="50%">
+					<h3>Plain NPAPI/PPAPI/ActiveX</h3>
+					<span>needs a player plugin — Windows Media Player, QuickTime, VLC, Mozplugger, etc.</span><br/>
+					<strong>Chromium-based browsers are known for falling this back on HTML5 video, you've been warned</strong>
+					<object type="video/mp4" data="https://dump.bitcheese.net/files/rinajyb/small.mp4" width="100%" height="500"></object>
+				</td>
+				<td width="50%">
+					<h3>A player in Flash</h3>
+					<span>is embedded via the same thing used to embed videos directly. XZibit would be happy ☺</span>
+						<object type="application/x-shockwave-flash" id="VideoPlayer" data="https://dump.bitcheese.net/files/cumabyd/JarisFLVPlayer.swf" width="100%" height="500"><param name="flashvars" value="source=https://dump.bitcheese.net/files/rinajyb/small.mp4&amp;autostart=false"></object>
+				</td>
+			</tr>
+			<tr valign="top">
+				<td width="50%">
+					<h3>HTML5 video</h3>
+					<video src="https://dump.bitcheese.net/files/rinajyb/small.mp4" width="100%" height="400"></video>
+				</td>
+				<td width="50%">
+					<h3>A player in JavaScript</h3>
+					<iframe src="player_js.html" width="100%" height="400"></iframe>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<footer>
+		<strong>License</strong>:<br/>
+		Do with that whatever you want, just don't kick me with ya' legs for the table-based layout, please. The embedded contents obviously belong to their authors, whoever else?
+	</footer>
+</body>
+</html>
